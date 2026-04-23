@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title> Beauty Shop</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#fff0f6;
+}
+
+header{
+    background:#c2185b;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+}
+
+nav a:hover{ text-decoration:underline; }
+
+.banner{
+    height:420px;
+    background:linear-gradient(rgba(194,24,91,0.6),rgba(194,24,91,0.6)),
+    url("https://media.cake.me/image/upload/c_limit,w_1500/f_auto/q_auto/v1733892314/tysxykryqbzsmvai0lne.jpg?_a=BAVAUaDW0");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.banner h1{ font-size:48px; }
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.product{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product img{
+    width:100%;
+    height:180px;
+    object-fit:contain;
+}
+
+footer{
+    background:#ad1457;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+.product:hover {
+    transform: translateY(-10px) scale(1.15); /* Đẩy sản phẩm lên trên 10px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Tạo bóng đổ giúp cảm giác "nổi" lên */
+transition: transform 0.4s ease, box-shadow 0.4s ease;}
+.product{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2 style="color:white"> Beauty</h2>
+    <nav>
+        <a href="trangchu.html">Trang chủ</a>
+        <a href="gioithieu.html">Giới thiệu</a>
+        <a href="sanpham.html">Sản phẩm</a>
+		<a href="giohang.html">Giỏ hàng</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <div>
+        <h1> Cocoon Vietnam Beauty</h1>
+        <p>Mỹ phẩm thuần chay Cocoon – Dịu nhẹ & an toàn cho làn da Việt</p>
+    </div>
+</div>
+
+<section>
+    <h2>Sản phẩm nổi bật</h2>
+	 
+        <div class="product">
+		<a href="12345.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/Artboard_7_3x_100_58131bf2f7.jpg">
+            <h3>Nước tẩy trang bí đao 1000ml</h3>
+            <p>Giá: 535.000 đ</p>
+		</a>
+        </div>
+
+        <div class="product">
+		<a href="123456.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/Avatar_1_dcfa1bbf4e.jpg">
+            <h3>Sữa rửa mặt sen Hậu Giang 310ml</h3>
+            <p>Giá: 339.000đ</</p>
+			</a>
+        </div>
+
+         <div class="product">
+		<a href="1234567.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/z3491780045590_9f9ef20c543913f117fa94cdb8ab11ed_a4435b1ccd.jpg">
+            <h3>Nước nghệ Hưng Yên 310ml</h3>
+            <p>Giá: 299.000đ</p>
+		</a>
+        </div>
+    </div>
+	<div class="product">
+		<a href="12345678.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/z4121418281884_8317874b9540c0f394d4450ee941e18c_1ecd94cf9e.jpg">
+            <h3>Tinh chất bí đao N15 70ml</h3>
+            <p>Giá: 486.000đ</p>
+		</a>
+        </div>
+    </div>
+	<div class="product">
+		<a href="123456789.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/Template_Website_Dau_Tay_Trang_310ml_b098c76143.jpg">
+            <h3>Dầu tẩy trang hoa hồng 310ml </h3>
+            <p>Giá: 339.000đ</p>
+		</a>
+        </div>
+    </div>
+	<div class="product">
+		<a href="111.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/Artboard_48_eb4d856178.jpg">
+            <h3>Mặt nạ nghệ Hưng Yên 100ml </h3>
+            <p>Giá: 339.000đ</p>
+		</a>
+        </div>
+    </div>
+	<div class="product">
+		<a href="112.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/z4389425025003_c3b68e5737569f01eb630fb0c010951c_47aa72d54d.jpg">
+            <h3>Tinh chất nghệ Hưng Yên C22 30ml </h3>
+            <p>Giá: 457.000đ</p>
+		</a>
+        </div>
+    </div>
+	<div class="product">
+		<a href="113.html" style="text-decoration:none;color:black">
+            <img src="https://image.cocoonvietnam.com/uploads/website_1_99aec50414.png">
+            <h3>Sữa chống nắng bí đao 50ml</h3>
+            <p>Giá: 432.000đ</p>
+		</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+     <h3>Liên hệ</h3>
+    <p>
+        📍 Địa chỉ: 123 Lê Lợi, TP. Pleiku, Gia Lai <br>
+        📞 Hotline: 0901 234 567 <br>
+        ✉ Email: beautyshop@gmail.com
+    </p>
+</footer>
+
+</body>
+</html>
